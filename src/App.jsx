@@ -37,9 +37,9 @@ function App() {
 
     return (
         <>
-            <div className='m-auto w-[600px] pt-10'>
+            <div className='m-auto pt-10'>
                 <h1 className='text-2xl font-bold mb-10 text-center'>Calculadora de asistencia</h1>
-                <div className='flex gap-4 justify-center shadow-lg p-4'>
+                <div className='flex gap-4 m-4 sm:1/2 sm:mx-auto md:w-1/2 md:mx-auto lg:w-1/3 lg:mx-auto justify-center shadow-lg p-4'>
                     <div className='flex flex-col gap-4 justify-center'>
                         <label className='font-semibold' htmlFor="">Porcentaje</label>
                         <label className='font-semibold' htmlFor="">Clases presente</label>
