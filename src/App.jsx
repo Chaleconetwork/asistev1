@@ -42,15 +42,17 @@ function App() {
                 <div className='flex gap-4 m-4 sm:1/2 sm:mx-auto md:w-1/2 md:mx-auto lg:w-1/3 lg:mx-auto justify-center shadow-lg p-4'>
                     <div className='flex flex-col gap-4 justify-center'>
                         <label className='font-semibold' htmlFor="">Porcentaje</label>
-                        <label className='font-semibold' htmlFor="">Clases presente</label>
-                        <label className='font-semibold' htmlFor="">Clases ausentes</label>
-                        <label className='font-semibold' htmlFor="">Total de clases</label>
+                        <label className='font-semibold' htmlFor="">Presentes</label>
+                        <label className='font-semibold' htmlFor="">Ausentes</label>
+                        <label className='font-semibold' htmlFor="">Total clases</label>
                     </div>
                     <div className='flex flex-col gap-2'>
                         <select onChange={handleChange} className='text-black outline-none shadow-md p-1 font-semibold' name="porcentaje">
-                            <option value={70}>70%</option>
+                            <option value={85}>85%</option>
+                            <option value={80}>80%</option>
                             <option value={75}>75%</option>
-                            <option value={60} defaultValue>60%</option>
+                            <option value={70}>70%</option>
+                            <option value={60}>60%</option>
                             <option value={50}>50%</option>
                         </select>
                         <input onChange={handleChange} name='presente' className='p-1 shadow-md rounded-sm outline-none font-semibold' type="text" placeholder='4' />
